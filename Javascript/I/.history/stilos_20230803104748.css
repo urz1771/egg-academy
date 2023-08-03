@@ -1,0 +1,29 @@
+* {
+    background-color: rgb(32, 32, 83);
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.form1 {
+    display: grid;
+    background-color: grey;
+    width: 20%;
+}
+
+
+@media screen and (min-width: 768px) {
+    h1 {
+        color: white;
+    }
+    p {
+        color: white;
+    }
+}

@@ -13,34 +13,29 @@ p {
 }
 
 .form1 {
-
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    
-
+    //establece un espacio entre los elementos de 10px dentro del flexbox
+    padding: 10px;
 }
 
 #formulario {
-
-    width: 30%;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
     color: white;
-    align-content: center;
-    
 }
 
 #edad {
-    
+    width: 80%;
     color: rgb(0, 0, 0);
     background-color: white;
     font-size: large;
-    padding: 20px;
-}
-
-#submit {
-    align-self: center;
-    font-size: large;
-    padding: 20px;
-    color: white;
-    
 }
 
 @media screen and (min-width: 768px) {

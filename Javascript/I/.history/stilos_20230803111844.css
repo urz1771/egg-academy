@@ -15,15 +15,13 @@ p {
 .form1 {
 
     width: 100%;
-    
 
 }
 
 #formulario {
-
-    width: 30%;
+    align-items: center;
+    width: 20%;
     color: white;
-    align-content: center;
     
 }
 
@@ -36,10 +34,8 @@ p {
 }
 
 #submit {
-    align-self: center;
+    align-self: ;
     font-size: large;
-    padding: 20px;
-    color: white;
     
 }
 

@@ -1,0 +1,38 @@
+* {
+    background-color: rgb(32, 32, 83);
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+container {
+    display: flex;
+    
+}
+#form1 {
+    display: flexbox;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    margin: auto;
+    background-color: grey;
+}
+
+
+@media screen and (min-width: 768px) {
+    h1 {
+        color: white;
+    }
+    p {
+        color: white;
+    }
+}

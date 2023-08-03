@@ -14,33 +14,23 @@ p {
 
 .form1 {
 
-    width: 100%;
-    
+    width: 10%;
 
 }
 
 #formulario {
-
-    width: 30%;
-    color: white;
-    align-content: center;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
     
+    color: white;
 }
 
 #edad {
-    
+    width: 80%;
     color: rgb(0, 0, 0);
     background-color: white;
     font-size: large;
-    padding: 20px;
-}
-
-#submit {
-    align-self: center;
-    font-size: large;
-    padding: 20px;
-    color: white;
-    
 }
 
 @media screen and (min-width: 768px) {

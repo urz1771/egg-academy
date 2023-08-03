@@ -15,32 +15,22 @@ p {
 .form1 {
 
     width: 100%;
-    
 
 }
 
 #formulario {
-
-    width: 30%;
+    align-items: center;
+    width: 20%;
     color: white;
-    align-content: center;
     
 }
 
 #edad {
-    
+    width: 80%;
     color: rgb(0, 0, 0);
     background-color: white;
     font-size: large;
-    padding: 20px;
-}
-
-#submit {
-    align-self: center;
-    font-size: large;
-    padding: 20px;
-    color: white;
-    
+    margin: ;
 }
 
 @media screen and (min-width: 768px) {

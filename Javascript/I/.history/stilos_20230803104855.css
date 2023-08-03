@@ -13,35 +13,16 @@ p {
 }
 
 .form1 {
-
-    width: 100%;
-    
-
-}
-
-#formulario {
-
-    width: 30%;
+    display: grid;
+    background-color: grey;
+    width: 10%;
     color: white;
-    align-content: center;
+    margin: auto;
+    padding: 10px;
+    //haz que sea transparente la caja
     
 }
 
-#edad {
-    
-    color: rgb(0, 0, 0);
-    background-color: white;
-    font-size: large;
-    padding: 20px;
-}
-
-#submit {
-    align-self: center;
-    font-size: large;
-    padding: 20px;
-    color: white;
-    
-}
 
 @media screen and (min-width: 768px) {
     h1 {

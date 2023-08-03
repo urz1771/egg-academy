@@ -13,34 +13,30 @@ p {
 }
 
 .form1 {
-
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    
-
+    margin: auto;
 }
 
 #formulario {
-
-    width: 30%;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
     color: white;
-    align-content: center;
-    
+    //establece un espacio entre los elementos del formulario
+    margin: 10px;
 }
 
 #edad {
-    
+    width: 80%;
     color: rgb(0, 0, 0);
     background-color: white;
     font-size: large;
-    padding: 20px;
-}
-
-#submit {
-    align-self: center;
-    font-size: large;
-    padding: 20px;
-    color: white;
-    
 }
 
 @media screen and (min-width: 768px) {

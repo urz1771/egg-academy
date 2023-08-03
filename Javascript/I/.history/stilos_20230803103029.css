@@ -1,0 +1,14 @@
+* {
+    background-color: rgb(32, 32, 83);
+    font-family: 'Montserrat', sans-serif;
+    //crea un tamaño de la página definido en px
+    width: 100%;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+}
